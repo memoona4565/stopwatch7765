@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+}
+
+h1{
+    color: teal;
+    display: inline-block;
+    background-color: white;
+    width: 90px;
+    border: teal solid 2px;
+    border-radius: 20px;
+}
+
+h2{
+    background-color: gray;
+    width: 200PX;
+    display: inline-block;
+    border: teal solid 5px;
+}
+
+button{
+    background-color: teal;
+    width: 60PX;
+    padding: 3px;
+    border: grey 2px solid;
+}
+
+button:hover{
+background-color: white;
+}
+
+
+.container{
+    background-color: gray;
+    width: 500px;
+    display: inline-block;
+    height: 200px;
+    border: teal solid 5px;
+    box-shadow: teal 5px solid;
+}
+
+
+@media only screen and (max-width: 400px){
+    container{
+        width: 200px;
+    }
+}
